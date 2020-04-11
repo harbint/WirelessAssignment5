@@ -69,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
             date.setLayoutParams(columnLayout);
             date.setText(result.getString(2));
             row.addView(date);
-            TextView priceView = new TextView(this);
-            priceView.setLayoutParams(columnLayout);
-            priceView.setText(result.getString(3));
-            row.addView(priceView);
+            TextView price = new TextView(this);
+            price.setLayoutParams(columnLayout);
+            price.setText(result.getString(3));
+            row.addView(price);
             TextView category = new TextView(this);
             category.setLayoutParams(columnLayout);
             category.setText(result.getString(1));
